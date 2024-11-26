@@ -53,8 +53,8 @@ let str3 = str1 + str2
 
 // console.log( (3 + 4) * 5 % 3);
 
-// console.log(+true);
-// console.log(+"");
+// console.log(+true);//+ make true a number without that it print trus in case of - print -1
+// console.log(+"");//print 0 as empty string +convert it into number without print empty space and with - print 0 not -0
 
 let num1, num2, num3
 
