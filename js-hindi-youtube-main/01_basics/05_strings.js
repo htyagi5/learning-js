@@ -30,6 +30,6 @@ const url = "https://hitesh.com/hitesh%20choudhary"
 
 console.log(url.replace('%20', '-'))
 
-console.log(url.includes('sundar'))
+console.log(url.includes('sundar'))//includes check the terms hai ya nhi we want to find in para 
 
-console.log(gameName.split('-'));
+console.log(gameName.split('-'));//split helps to remove special symbols and provide words like here give-->hitesh,hc,com
