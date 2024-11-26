@@ -5,22 +5,24 @@ const balance = new Number(100)
 // console.log(balance);
 
 // console.log(balance.toString().length);
-// console.log(balance.toFixed(1));
 
-const otherNumber = 123.8966
+//For user-defined Function objects, the toString method returns a string containing the source text segment which was used to define the function. 
+// console.log(balance.toFixed(1));//used ki decimal ke baad kitni value print karni hai
 
-// console.log(otherNumber.toPrecision(4));
 
+const otherNumber = 123.8966;
+
+// console.log(otherNumber.toPrecision(4));//print 123.90
 const hundreds = 1000000
-// console.log(hundreds.toLocaleString('en-IN'));
+// console.log(hundreds.toLocaleString('en-IN'));//print 10,00,000
 
 // +++++++++++++ Maths +++++++++++++++++++++++++++++
 
 // console.log(Math);
 // console.log(Math.abs(-4));
-// console.log(Math.round(4.6));
-// console.log(Math.ceil(4.2));
-// console.log(Math.floor(4.9));
+// console.log(Math.round(4.6));//5 normally round off
+// console.log(Math.ceil(4.2));//5
+// console.log(Math.floor(4.9));//4
 // console.log(Math.min(4, 3, 6, 8));
 // console.log(Math.max(4, 3, 6, 8));
 
