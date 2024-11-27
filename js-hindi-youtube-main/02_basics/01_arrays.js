@@ -12,8 +12,8 @@ const myArr2 = new Array(1, 2, 3, 4)    //this is  a way to define an array as o
 // myArr.push(7)
 // myArr.pop()
 
-// myArr.unshift(9)
-// myArr.shift()
+// myArr.unshift(9)//used to push at beginning 
+// myArr.shift()//pop starting element
 
 // console.log(myArr.includes(9));
 // console.log(myArr.indexOf(3));
