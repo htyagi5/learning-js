@@ -21,7 +21,7 @@ console.log(real_another_array);
 
 
 console.log(Array.isArray("Hitesh"))   //this  way we can check whether this string array present or not through boolean method
-console.log(Array.from("Hitesh"))  //from is used generarte this array
+console.log(Array.from("Hitesh"))  //from is used generarte this array. -->print [H,i,t,e,s,h]
 console.log(Array.from({name: "hitesh"})) // interesting cse as it is confused which thing to make array key or value
 
 let score1 = 100
