@@ -5,7 +5,7 @@
 
 const arr = [1, 2, 3, 4, 5]
 
-for (const num of arr) {
+for (const num of arr) {  //of is very powerful operator which helps to traverse in ann array
     // console.log(num);
 }
 
